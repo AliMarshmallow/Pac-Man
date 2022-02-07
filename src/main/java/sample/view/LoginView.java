@@ -51,7 +51,7 @@ public class LoginView {
         passwordText.setText("");
         stage.close();
         MainMenu.setUsernameLogin(username);
-        MainView.setAnchorPane(FXMLLoader.load(getClass().getResource("/sample/fxml/mainMenu.fxm")));
+        MainView.setAnchorPane(FXMLLoader.load(getClass().getResource("/sample/fxml/mainMenu.fxml")));
         MainView.stage.setScene(new Scene(MainView.getAnchorPane2()));
         MainView.stage.setTitle("Pac-Man");
         if (FirstMenu.isMute){
